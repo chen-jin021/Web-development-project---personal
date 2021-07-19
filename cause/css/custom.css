@@ -1,0 +1,203 @@
+/* import a customized font */
+@font-face{
+    font-family: lequire;
+    src: url(../fonts/Lequire.otf);
+}
+@font-face{
+    font-family:pix;
+    src: url(../fonts/ka1.ttf);
+}
+
+body {
+    font-family: "Nunito", sans-serif;
+
+    background: url(../imgs/background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+#lightbox{
+    background: rgba(0,0,0,0.5);
+    width : 100vw;
+    height : 100vh;
+  
+    position : fixed;
+    top : 0px;
+    left : 0px;
+    z-index: 10000;
+  
+    display : none;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#lighbox_content{
+    min-width : 900px;
+    width : 50vw;
+    min-height : 300px;
+    border : solid 1px black;
+  
+    position : relative;
+  
+    /* add curve to the corners */
+    border-radius : 10px;
+  
+    background : white;
+
+    background: url(../imgs/b1.jpg) no-repeat center center fixed;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+
+
+}
+
+#lightbox_mainArea{
+    margin-top: 50px;
+} 
+  
+#lightbox_close_btn{
+    position : absolute;
+    right : 5px;
+    top : 5px;
+  
+    border : solid 1px black;
+  
+    width : 40px;
+    height : 40px;
+  
+    display : flex;
+    justify-content: center;
+    align-items: center;
+  
+    font-size : 14pt;
+    font-weight : bold;
+    font-family : sans-serif;
+  
+    border-radius : 50%;
+  
+    background : black;
+    color : white;
+    
+    cursor: pointer;
+
+}
+
+.lightboxContent{
+    justify-self: center;
+    text-align: center;
+}
+
+.blurb h2 {
+   color: #EA1C2C;
+   font-weight: 100;
+   font-size: 2.5rem;
+}
+
+.blurb p {
+    color: rgba(250,250,250,0.8);
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.container-fluid{
+    background: rgba(255,255,255,0.5)
+}
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;    
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #EA1C2C;
+}
+
+#mainNavbar .navbar-brand {
+    color: #EA1C2C;
+    font-size: 1.5rem;
+}
+
+#headingGroup span {
+    color: #EA1C2C;
+}
+
+#headingGroup h1 {
+    font-family: lequire;
+
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+.navbar.scrolled {
+    background: rgb(0,0,0);
+    transition: background 500ms;
+}
+
+.rowOfCards{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+#newsHeading{
+    padding-left: 20px;
+    color: rgba(255,255,255,0.8);
+    padding-bottom: 20px;
+}
+.donateSuggestionBtn{
+    width: 100px;
+    margin-bottom: 20px;
+}
+.contributeGreenBtn{
+    text-align: center;
+}
+.row{
+    margin-right: 10px;
+    text-align: center;
+}
+#donateLine{
+    font-size: 20px;
+    text-align: center;
+    color: rgba(255,255,255,0.8);
+    padding-bottom: 30px;
+}
+
+.icons{
+    display: flex;
+}
+
+.lead{
+    font-family: lequire;
+}
+
+.socialMedia{
+    padding: 10px;
+}
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+    .blurb h2 {
+        font-size: 2rem;
+    }
+}
+
+
+
+
+

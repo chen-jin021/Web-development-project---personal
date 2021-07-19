@@ -1,0 +1,288 @@
+/* import a customized font */
+@font-face{
+    font-family: lequire;
+    src: url(../fonts/Lequire.otf);
+}
+
+@font-face{
+    font-family:pix;
+    src: url(../fonts/ka1.ttf);
+}
+
+@font-face{
+    font-family: modern;
+    src: url(../fonts/MOODERN.ttf)
+}
+
+body{
+    width: 100%;
+    background: url(../images/background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+
+header{
+    margin-top: 10px;
+    display: flex;
+    height: 60px;
+    width: 99%;
+    background-color: rgba(75, 73, 73, 0.7)
+
+
+}
+
+#logo{
+    border: 1px solid black;
+    flex-grow: 2;
+    padding: 20px;
+    text-align: center;
+}
+
+#logo a{
+    text-decoration: none;
+
+}
+
+.fa-coffee{
+    color: gray;
+}
+#logo-word{
+    padding-left: 10px;
+    letter-spacing: 1px;
+    font-family: lequire;
+    font-size:20px; 
+    color: rgb(190, 188, 188);
+}
+
+nav{
+    flex-grow: 4;
+
+    letter-spacing: 1px;
+    font-family: lequire;
+    font-size:20px;
+}
+
+nav ul{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    height: 60px;  
+}
+
+nav ul li{
+    border: 1px solid black;
+    list-style: none;
+    flex-grow: 1;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+a:link{
+    color: rgb(190, 188, 188);
+}
+a:visited{
+    color: rgb(190, 188, 188);
+}
+
+#mainArea{
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    /* height: 600px; */
+}
+
+.landscape{
+    width: 99%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgba(68, 68, 68, 0.8);
+}
+
+#grid{
+    width: 99%;
+    background-color: rgba(134, 120, 120, 0.7) !important;
+
+}
+
+.fencing{
+    width: 99%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(255,255,255,0.7);
+    object-fit: scale-down;
+}
+
+#lei{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+
+#descriptions{
+    background: rgba(255, 179, 1, 0.9);
+    color: white;
+    font-family: lequire;
+    letter-spacing: 10px;
+    padding: 5px;
+}
+#conway, #conway p{
+    padding: 30px;
+    font-family: lequire;
+    letter-spacing: 3px;
+    line-height: 25px;
+    color: rgba(240, 224, 188, 0.9);
+}
+
+#conway a{
+    text-decoration: none;
+    color: orange;
+}
+
+table{
+    margin: 0 auto;
+
+}
+table tr td{
+    align-items: center;
+    padding: 10px;
+
+}
+table tr td img{
+    width:30vw;
+}
+textarea{
+    width: 99%;
+}
+
+#contact h3{
+    padding: 20px;
+    font-size: 25px;
+    font-family: pix;
+    color: #424C76;
+}
+
+#contact{
+    background-color: rgba(255,255,255,0.5);
+    font-family: lequire;
+    padding: 5px;
+    margin-top: 10px;
+    width: 99%;
+}
+
+#subArea{
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    display: flex;
+
+    /* background-color: rgba(64, 66, 189, 0.8); */
+    background: rgba(255, 179, 1, 0.9);
+}
+
+form{
+    padding: 10px;
+}
+.repl{
+    margin-top: 30px;
+}
+
+.box{
+    /* border: 1px solid black; */
+    min-height : 100px;
+    margin: 10px;
+}
+
+.box p{
+    font-family: modern;
+    letter-spacing: 1.5px;
+    padding: 2px;
+    font-size: 20x;
+    /* color: rgba(255, 255, 122, 0.6); */
+    color: rgba(89, 94, 189, 0.8);
+}
+.box img{
+    max-width: 100%;
+    object-fit: fit;
+}
+
+.box p a{
+    text-decoration: none;
+    color: rgba(45, 131, 91, 0.8);
+}
+
+footer{
+    background-color: rgba(255,255,255,0.7);
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+#map{
+    border: 1px solid black;
+    min-height: 200px;
+    flex-grow:1;
+    margin: 10px;    
+}
+
+
+.icons{
+    border: 1px solid black;
+    display:flex;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.socialMedia{
+    display: flex;
+    padding: 10px;
+}
+
+.socialMedia a:link{
+    color: #2E3438;
+}
+.socialMedia a:hover{
+    color: orange;
+}
+.socialMedia a:active{
+    color: #2E3438;
+}
+.socialMedia a:visited{
+    color: #DDE2E3;
+}
+
+
+
+#top-btn{
+    width:60px;
+    height: 60px;
+    background: black;
+
+    position: fixed;
+    right: 30px;
+    bottom: 20px;
+    z-index: 99; /* Make sure it does not overlap */
+
+
+    border-radius: 25px;
+
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    cursor: pointer; /* Add a mouse pointer on hover */
+}

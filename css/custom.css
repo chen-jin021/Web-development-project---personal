@@ -1,0 +1,171 @@
+@font-face{
+    font-family: lequire;
+    src: url(../fonts/Lequire.otf);
+}
+@font-face{
+    font-family:pix;
+    src: url(../fonts/ka1.ttf);
+}
+
+
+body{
+    background: url(../imgs/background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+section{
+    background: rgba(255,255,255,0.6);
+    margin: 50px;
+    padding-top: 30px;
+}
+
+.navbar-brand, .nav-link{
+    font-family: lequire;
+    font-size: 30px;
+}
+
+#mainNavbar .nav-link{
+    color: rgba(216, 104, 0, 0.89)
+}
+
+#mainNavbar .nav-link:hover {
+    color:rgba(88, 108, 126, 0.89);
+}
+.menuBar{
+    font-size: 40px;
+    color: rgba(111, 0, 214, 0.6) !important;
+}
+.navbar.scrolled {
+    background: rgb(30, 30, 30);
+    transition: background 500ms;
+}
+
+#personal{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.intro{
+    font-family: lequire;
+    font-size: 20px;
+    color: rgba(11, 62, 112, 0.89);
+    padding: 10px;
+    /* background-color: rgba(0,0,0,0.6); */
+}
+
+#cause{
+    padding:30px;
+    /* background: rgba(100,100,100,0.5); */
+    background: url(../imgs/wallpaper.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.donateSuggestionBtn{
+    width: 100px;
+    margin-bottom: 20px;
+}
+.contributeGreenBtn{
+    text-align: center;
+}
+.row{
+    margin-right: 10px;
+    text-align: center;
+}
+
+.rowOfCards{
+    padding-bottom: 20px;
+}
+#donateLine{
+    font-size: 20px;
+    text-align: center;
+    /* color: rgba(255,255,255,0.8); */
+    padding-bottom: 30px;
+}
+.donationBox{
+    background: rgba(255,255,255,0.6);
+    padding-top: 30px;
+}
+.causeIntro{
+    background: rgba(255,255,255,0.6);
+}
+#conway a{
+    text-decoration: none;
+    color: rgba(57, 115, 201, 0.7);
+}
+#conway a:hover{
+    color: orange;
+}
+#conway{
+    /* background: rgba(0,0,0,0.7); */
+    font-family: pix;
+    /* color: rgba(27, 44, 65, 0.8); */
+    color: rgba(57, 115, 201, 0.7);
+    font-size: 20px;
+}
+
+footer{
+    background: rgba(255,255,255,0.5);
+    margin-bottom: 40px;
+}
+.icons{
+    display: flex;
+}
+
+.socialMedia{
+    padding: 10px;
+}
+#copyright{
+    color: white;
+    font-family: lequire;
+}
+
+
+#button {
+    display: inline-block;
+    background-color: #FF9800;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, 
+      opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+}
+
+#button:hover {
+    cursor: pointer;
+    background-color: #333;
+}
+#button p{
+    font-family: lequire;
+    
+}
+#button:active {
+    background-color: #555;
+}
+#button.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+  
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+    .blurb h2 {
+        font-size: 2rem;
+    }
+
+}

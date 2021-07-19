@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Donate</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <link rel="stylesheet" href="css/custom.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <!-- import velocity.js -->
+    <script src="js/velocity.js"></script>
+    <!-- import velocity.ui.js: velocity.ui.js depends on velocity.js  -->
+    <script src="js/velocity.ui.js"></script>
+    <!-- custom script comes last because it depends on the external js and jquery files -->
+    <script src="js/custom.js"></script>
+    
+</head>
+
+<body>
+    <div id="lightbox">
+        <div id="lighbox_content">
+            <div id="lightbox_close_btn">
+              x
+            </div>
+            <div id="lightbox_mainArea">
+               <div class="row lightboxContent">
+                   <div class="col-4 slogan" style="font-family: lequire; font-size: 40px; color:aliceblue; padding: 20px;">
+                    Help Us FIght COVID-19
+                    </div>
+                    <div class="col-8">
+                        <!-- first row of donation  -->
+                        <div class="row" style="font-family: lequire; font-size: 40px; color:aliceblue;">
+                            <div class="col-md-12 slogan">
+                                DONATE NOW:
+                            </div>
+                        </div>
+                        <div class="row donateBtn">
+                            <div class="col-md-3 justify-content-center">
+                                <button type="button" class="btn btn-light donateSuggestionBtn">$10</button>
+                            </div>
+                            <div class="col-md-3 justify-content-center">
+                                <button type="button" class="btn btn-light donateSuggestionBtn">$20</button>
+                            </div>
+                            <div class="col-md-3 justify-content-center">
+                                <button type="button" class="btn btn-light donateSuggestionBtn">$50</button>
+                            </div>
+                            <div class="col-md-3 justify-content-center">
+                                <button type="button" class="btn btn-light donateSuggestionBtn">$100</button>
+                            </div>
+                        </div>
+
+                        <div class="row donateBtn">
+                            <div class="col-md-3">
+                                <button type="button" class="btn btn-light donateSuggestionBtn">$200</button>
+                            </div>
+                            <div class="col-md-3">
+                                <button type="button" class="btn btn-light donateSuggestionBtn">$500</button>
+                            </div>
+                            <div class="col-md-3">
+                                <button type="button" class="btn btn-light donateSuggestionBtn">$1,000</button>
+                            </div>
+                            <div class="col-md-3">
+                                <!-- this last one is not a button, it is a text area with user input amount of dollars -->
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                    <span class="input-group-text">$</span>
+                                    </div>
+                                    <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                                    <div class="input-group-append">
+                                    <span class="input-group-text">.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-4"> 
+                                <!-- placeholder -->
+                            </div>
+                            <div class="col-md-4 contributeGreenBtn">
+                                <!-- we also wanted to center the button -->
+                                <button type="button" class="btn btn-success">Contribute</button>
+                            </div>
+                            <div class="col-md-4">
+                                <!-- placeholder -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
+        <a href="index.html" class="navbar-brand">FIGHT COVID</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navLinks">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                   <a href="news.html" class="nav-link">NEWS & STORIES</a>
+                </li>
+                <li class="nav-item">
+                    <a href="donate.html" class="nav-link">DONATE</a>
+                </li>
+                <li class="nav-item">
+                    <!-- this is redirecting to the portfolio page -->
+                    <a href="../index.html" class="nav-link">PORTFOLIO</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="container-fluid px-0">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div id="headingGroup" class="text-white text-center d-none d-lg-block mt-5">
+                    <h1></span>DONATE <span>/</span> COVID-19</h1>
+                    <h1></span>DONATE <span>/</span> COVID-19</h1>
+                    <h1></span>DONATE <span>/</span> COVID-19</h1>
+                    <h1></span>DONATE <span>/</span> COVID-19</h1>
+                    <h1></span>DONATE <span>/</span> COVID-19</h1>
+                    <h1></span>DONATE <span>/</span> COVID-19</h1>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <img class="img-fluid" src="imgs/donation2.jpg" alt="N/A">
+            </div>
+        </div>
+    </section>
+
+    <section class="container-fluid px-0">
+        <div class="row align-items-center content">
+            <div class="col-md-6 order-2 order-md-1">
+                <a href="donate.html">
+                    <img src="imgs/donation.jpg" alt="COVID-19" class="img-fluid">
+                </a> 
+            </div>
+            <div class="col-md-6 text-center order-1 order-md-2">
+                <div class="row justify-content-center">
+                    <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+                        <h2>Donate To Help Fight COVID-19</h2>
+                        <img src="imgs/mask.png" alt="N/A" class="d-none d-lg-inline">
+                        
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="alert alert-danger " role="alert" style="font-family: lequire;">
+            check out how you can help with fighting the COVID-19!
+          </div>
+
+        <div class="row align-items-center content">
+            <div class="col-md-6 text-center">
+                <div class="row justify-content-center">
+                    <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+                        <h2>MAKE A DONATION</h2>
+                        <img src="imgs/mask.png" alt="N/A" class="d-none d-lg-inline">
+                        <p class="lead" style="color: rgba(0,0,0,0.8);">
+                            This is your movement. This country is counting on all of us to continue fighting for our progressive agenda. 
+                            There is only one way we will transform this country – and that is together.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="row justify-content-center">
+                    <h3 id="donateLine" style="font-family: lequire; color: rgba(0,0,0,0.8);">To Make Our Country Better: [Donate here]</h3>
+                </div>
+                <div class="row donateBtn">
+                    <div class="col-md-3 justify-content-center">
+                        <button type="button" class="btn btn-light donateSuggestionBtn">$10</button>
+                    </div>
+                    <div class="col-md-3 justify-content-center">
+                        <button type="button" class="btn btn-light donateSuggestionBtn">$20</button>
+                    </div>
+                    <div class="col-md-3 justify-content-center">
+                        <button type="button" class="btn btn-light donateSuggestionBtn">$50</button>
+                    </div>
+                    <div class="col-md-3 justify-content-center">
+                        <button type="button" class="btn btn-light donateSuggestionBtn">$100</button>
+                    </div>
+                </div>
+
+                <!-- second row within the column  -->
+                
+                <div class="row donateBtn">
+                    <div class="col-md-3">
+                        <button type="button" class="btn btn-light donateSuggestionBtn">$200</button>
+                    </div>
+                    <div class="col-md-3">
+                        <button type="button" class="btn btn-light donateSuggestionBtn">$500</button>
+                    </div>
+                    <div class="col-md-3">
+                        <button type="button" class="btn btn-light donateSuggestionBtn">$1,000</button>
+                    </div>
+                    <div class="col-md-3">
+                        <!-- this last one is not a button, it is a text area with user input amount of dollars -->
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                              <span class="input-group-text">$</span>
+                            </div>
+                            <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                            <div class="input-group-append">
+                              <span class="input-group-text">.00</span>
+                            </div>
+                          </div>
+                        
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4">
+                    </div>
+                    <div class="col-md-4 contributeGreenBtn">
+                        <!-- we also wanted to center the button -->
+                        <button type="button" class="btn btn-success">Contribute</button>
+                    </div>
+                    <div class="col-md-4">
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+            
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="page-footer font-small teal pt-4">
+
+        <!-- Footer Text -->
+        <div class="container-fluid text-center text-md-left">
+    
+        <!-- Grid row -->
+        <div class="row">
+  
+        <!-- Grid column -->
+        <div class="col-md-6 mt-md-0 mt-3">
+
+            <div class="icons" style="font-size: 10em">
+                <div class="socialMedia">
+                  <a href="https://www.facebook.com" target="_blank">
+                    <i class="fab fa-facebook-square"></i>
+                  </a>
+                </div>
+  
+                <div class="socialMedia">
+                  <a href="https://www.instagram.com" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </div>
+  
+                <div class="socialMedia">
+                  <a href="https://www.linkedin.com/in/chen-jin-nyu" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+                </div>
+  
+                <div class="socialMedia">
+                  <a href="https://www.twitter.com" target="_blank">
+                    <i class="fab fa-twitter-square"></i>
+                  </a>
+                </div>
+              </div>
+        </div>
+        <!-- Grid column -->
+  
+        <hr class="clearfix w-100 d-md-none pb-3">
+  
+        <!-- Grid column -->
+        <div class="col-md-6 mb-md-0 mb-3">
+  
+            <iframe width="100%" height="100%" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.1690676138837!2d140.03244201514423!3d35.64820598020193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6022821fd52ebfdf%3A0xcec0c09c4bed45e0!2sMakuhari%20Messe%20Event%20Hall!5e0!3m2!1sen!2s!4v1605504300919!5m2!1sen!2s" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+  
+        </div>
+  
+    </footer>
+    <!-- Footer -->
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+    <script>
+        $(function () {
+            $(document).scroll(function () {
+                var $nav = $("#mainNavbar");
+                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+            });
+        });
+    </script>
+</body>
+
+</html>

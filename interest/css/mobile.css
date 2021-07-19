@@ -1,0 +1,315 @@
+/* import a customized font */
+@font-face{
+    font-family: lequire;
+    src: url(../fonts/Lequire.otf);
+}
+
+@font-face{
+    font-family:pix;
+    src: url(../fonts/ka1.ttf);
+}
+
+@font-face{
+    font-family: code;
+    src: url(../fonts/code.ttf);
+}
+
+@font-face{
+    font-family: modern;
+    src: url(../fonts/MOODERN.ttf)
+}
+
+body{
+    width: 99%;
+    background: url(../images/background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+header{
+    margin-top: 3px;
+    display: flex;
+    height: 30px;
+    width: 99%;
+    background-color: rgba(75, 73, 73, 0.7)
+
+}
+
+#logo{
+    flex-grow: 2;
+    padding: 3px;
+    text-align: center;
+}
+
+.fa-coffee{
+    padding-top:3px;
+    font-size: 10px;
+    color: gray;
+}
+
+#logo a{
+    text-decoration: none;
+    /* font-size: 10px;
+    font-family: lequire; */
+}
+
+#logo-word{
+    padding-left: 5px;
+    letter-spacing: 1px;
+    font-family: lequire;
+    font-size:10px;
+    color: rgb(190, 188, 188);
+}
+
+nav{
+    flex-grow: 4;
+
+    letter-spacing: 1px;
+    font-family: lequire;
+    font-size:9px;
+}
+
+nav ul{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    height: 10px;
+}
+
+nav ul li{
+    list-style: none;
+    flex-grow: 1;
+    text-align: center;
+    padding: 10px;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+a:link{
+    color: rgb(190, 188, 188);
+}
+a:visited{
+    color: rgb(190, 188, 188);
+}
+
+#mainArea{
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    /* height: 600px; */
+}
+
+.landscape{
+    width: 99%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(31, 70, 107, 0.7);
+
+}
+
+#descriptions{
+    background: rgba(255, 179, 1, 0.9);
+    color: white;
+    font-family: lequire;
+    letter-spacing: 2px;
+    padding: 2px;
+    font-size: 12px;
+}
+
+#conway, #conway p{
+    padding: 3px;
+    font-family: lequire;
+    letter-spacing: 1px;
+    line-height: 20px;
+    font-size: 12px;
+    color: rgba(151, 145, 151, 0.988);
+}
+
+#conway a{
+    text-decoration: none;
+    color: rgb(212, 139, 4);
+}
+#grid{
+    width: 99%;
+    background-color: rgba(134, 120, 120, 0.7) !important;
+
+}
+#lei{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+
+table{
+    margin: 0 auto;
+
+}
+table tr td{
+    align-items: center;
+    padding: 10px;
+    border-radius: 4px
+}
+/* table tr td img{
+    width:30vw;
+} */
+
+#contact h3{
+    padding: 20px;
+    font-size: 14px;
+    font-family: pix;
+    color: #424C76;
+}
+
+#contact{
+    width: 99%;
+
+    background-color: rgba(255,255,255,0.5);
+    font-family: lequire;
+    font-size: 12px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+form{
+    padding: 10px;
+}
+textarea{
+    width: 99%;
+}
+
+#avail label,
+#DOM label{
+    display: block;
+}
+
+#avail input,
+#DOM input{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#subArea{
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    display: flex;
+    width: 99%;
+    background: rgba(255, 179, 1, 0.9);
+
+    display: block;
+}
+
+
+.box{
+    /* border: 1px solid black; */
+    min-height : 100px;
+    width: 80%;
+    margin: 10px;
+    margin: auto;
+
+
+}
+
+
+.box p{
+
+    padding: 5px;
+    font-family: modern;
+    letter-spacing: 0.3px;
+    font-size: 12px;
+    color: rgba(64, 66, 189, 0.8);
+
+}
+.box img{
+    max-width: 100%;
+    padding: 5px;
+    object-fit: fit;
+}
+.repl{
+    display: none;
+}
+
+footer{
+    background-color: rgba(255,255,255,0.7);
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+#map{
+    /* border: 1px solid black; */
+    max-height: 50px;
+    flex-grow:1;
+    margin: 10px;
+}
+
+.icons{
+    display:flex;
+    /* border: 1px solid black; */
+    padding: 10px;
+    margin: 10px;
+    flex-grow:1;
+
+}
+
+.socialMedia{
+    display: flex;
+    padding: 10px;
+    max-height: 10px;
+}
+
+.socialMedia a:link{
+    color: #2E3438;
+}
+.socialMedia a:hover{
+    color: orange;
+}
+.socialMedia a:active{
+    color: #2E3438;
+}
+.socialMedia a:visited{
+    color: #DDE2E3;
+}
+
+.fab{
+    font-size: 20px !important;
+    position: absolute;
+}
+
+#top-btn{
+    width:25px;
+    height: 25px;
+    background: black;
+
+    position: fixed;
+    right: 30px;
+    bottom: 20px;
+    z-index: 99; /* Make sure it does not overlap */
+
+
+    border-radius: 10px;
+
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer; /* Add a mouse pointer on hover */
+}
+
+#top-btn p{
+    font-size: 9px;
+    margin: 0;
+}
